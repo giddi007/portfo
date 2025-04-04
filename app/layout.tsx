@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html suppressHydrationWarning>
       <head>
         <link rel="icon" href="/jsm-logo.png" sizes="any" />
       </head>
@@ -37,3 +37,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+
