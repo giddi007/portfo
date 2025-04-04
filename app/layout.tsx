@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
+
 import { Inter } from "next/font/google";
 
 import "./globals.css";
@@ -18,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/jsm-logo.png" sizes="any" />
       </head>
